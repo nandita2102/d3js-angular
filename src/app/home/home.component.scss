@@ -1,0 +1,27 @@
+.drawer-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mat-drawer {
+    width: 14%;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    background: lightslategrey;
+    box-shadow: 0 10px 20px #e5e6eb, 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.space-name {
+    font-family: 'Righteous', cursive;
+    top: 7px;
+    font-weight: bold;
+    padding: 6px;
+    width: 73%;
+    outline: none;
+    border: none;
+    letter-spacing: 2px;
+    background: lightslategrey;
+    white-space: nowrap;
+}

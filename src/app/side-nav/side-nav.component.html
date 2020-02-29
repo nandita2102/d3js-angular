@@ -1,0 +1,6 @@
+<div class="side-nav" *ngFor="let element of list ; let i=index">
+    <button mat-flat-button class="button" value="{{element.name}}">
+        <mat-icon class="icon">{{element.icon}}</mat-icon>
+        <span>{{element.name}}</span>
+    </button>
+</div>

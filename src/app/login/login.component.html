@@ -1,0 +1,18 @@
+<div class="login-container">
+    <h1>Login</h1>
+    <form [formGroup]="firstFormGroup">
+        <div class="login-group">
+            <mat-form-field appearance="outline">
+                <mat-label>Username</mat-label>
+                <input matInput placeholder="Enter username" formControlName="firstCtrl" required>
+            </mat-form-field>
+    
+            <mat-form-field appearance="outline">
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="Enter password" formControlName="secondCtrl" required>
+            </mat-form-field>
+    
+            <button mat-raised-button (click)='navigateToApp()' class="login-button">Login</button>
+        </div>   
+    </form>
+</div>
